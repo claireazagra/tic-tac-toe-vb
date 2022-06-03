@@ -17,7 +17,7 @@ namespace Tic_Tac_Toe
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form2 f2 = new Form2();
@@ -26,7 +26,7 @@ namespace Tic_Tac_Toe
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             this.Close();
 

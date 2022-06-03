@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.button1 = new System.Windows.Forms.Button();
             this.a1 = new System.Windows.Forms.Button();
             this.c1 = new System.Windows.Forms.Button();
@@ -36,7 +37,7 @@
             this.c2 = new System.Windows.Forms.Button();
             this.a2 = new System.Windows.Forms.Button();
             this.b3 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.c3 = new System.Windows.Forms.Button();
             this.a3 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -56,7 +57,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "QUIT";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // a1
             // 
@@ -68,6 +69,7 @@
             this.a1.Size = new System.Drawing.Size(111, 102);
             this.a1.TabIndex = 2;
             this.a1.UseVisualStyleBackColor = false;
+            this.a1.Click += new System.EventHandler(this.Button_click);
             // 
             // c1
             // 
@@ -79,6 +81,7 @@
             this.c1.Size = new System.Drawing.Size(111, 102);
             this.c1.TabIndex = 3;
             this.c1.UseVisualStyleBackColor = false;
+            this.c1.Click += new System.EventHandler(this.Button_click);
             // 
             // b1
             // 
@@ -90,6 +93,7 @@
             this.b1.Size = new System.Drawing.Size(111, 102);
             this.b1.TabIndex = 4;
             this.b1.UseVisualStyleBackColor = false;
+            this.b1.Click += new System.EventHandler(this.Button_click);
             // 
             // b2
             // 
@@ -101,6 +105,7 @@
             this.b2.Size = new System.Drawing.Size(111, 102);
             this.b2.TabIndex = 7;
             this.b2.UseVisualStyleBackColor = false;
+            this.b2.Click += new System.EventHandler(this.Button_click);
             // 
             // c2
             // 
@@ -112,6 +117,7 @@
             this.c2.Size = new System.Drawing.Size(111, 102);
             this.c2.TabIndex = 6;
             this.c2.UseVisualStyleBackColor = false;
+            this.c2.Click += new System.EventHandler(this.Button_click);
             // 
             // a2
             // 
@@ -123,6 +129,7 @@
             this.a2.Size = new System.Drawing.Size(111, 102);
             this.a2.TabIndex = 5;
             this.a2.UseVisualStyleBackColor = false;
+            this.a2.Click += new System.EventHandler(this.Button_click);
             // 
             // b3
             // 
@@ -134,17 +141,19 @@
             this.b3.Size = new System.Drawing.Size(111, 102);
             this.b3.TabIndex = 10;
             this.b3.UseVisualStyleBackColor = false;
+            this.b3.Click += new System.EventHandler(this.Button_click);
             // 
-            // button9
+            // c3
             // 
-            this.button9.BackColor = System.Drawing.Color.Thistle;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Comic Sans MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(390, 263);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(111, 102);
-            this.button9.TabIndex = 9;
-            this.button9.UseVisualStyleBackColor = false;
+            this.c3.BackColor = System.Drawing.Color.Thistle;
+            this.c3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.c3.Font = new System.Drawing.Font("Comic Sans MS", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c3.Location = new System.Drawing.Point(390, 263);
+            this.c3.Name = "c3";
+            this.c3.Size = new System.Drawing.Size(111, 102);
+            this.c3.TabIndex = 9;
+            this.c3.UseVisualStyleBackColor = false;
+            this.c3.Click += new System.EventHandler(this.Button_click);
             // 
             // a3
             // 
@@ -156,6 +165,7 @@
             this.a3.Size = new System.Drawing.Size(111, 102);
             this.a3.TabIndex = 8;
             this.a3.UseVisualStyleBackColor = false;
+            this.a3.Click += new System.EventHandler(this.Button_click);
             // 
             // button11
             // 
@@ -168,22 +178,23 @@
             this.button11.ForeColor = System.Drawing.Color.DarkMagenta;
             this.button11.Location = new System.Drawing.Point(44, 385);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(99, 35);
+            this.button11.Size = new System.Drawing.Size(136, 35);
             this.button11.TabIndex = 11;
             this.button11.Text = "NEW GAME";
             this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.Button11_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Tic_Tac_Toe.Properties.Resources.game_background_gd652e5681_1920;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(681, 445);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.b3);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.c3);
             this.Controls.Add(this.a3);
             this.Controls.Add(this.b2);
             this.Controls.Add(this.c2);
@@ -212,7 +223,7 @@
         private System.Windows.Forms.Button c2;
         private System.Windows.Forms.Button a2;
         private System.Windows.Forms.Button b3;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button c3;
         private System.Windows.Forms.Button a3;
         private System.Windows.Forms.Button button11;
     }

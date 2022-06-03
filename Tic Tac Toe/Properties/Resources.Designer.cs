@@ -73,36 +73,6 @@ namespace Tic_Tac_Toe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap game_background_gd652e5681_1920 {
-            get {
-                object obj = ResourceManager.GetObject("game-background-gd652e5681_1920", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tic_tac_toe_6_3_2022 {
-            get {
-                object obj = ResourceManager.GetObject("tic-tac-toe-6-3-2022", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tic_tac_toe_6_3_2022__1_ {
-            get {
-                object obj = ResourceManager.GetObject("tic-tac-toe-6-3-2022 (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap tic_tac_toe_6_3_2022__2_ {
             get {
                 object obj = ResourceManager.GetObject("tic-tac-toe-6-3-2022 (2)", resourceCulture);
